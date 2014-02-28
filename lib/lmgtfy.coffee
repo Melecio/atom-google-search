@@ -5,7 +5,7 @@ module.exports =
   googleIt : ->
     editor = atom.workspace.activePaneItem
     selection = editor.getSelection()
-    query = selection.getText().split(" ").join("+")
+    query = selection.getText().split(" ").map(encodeURIComponent).join("+")
     if query
       url = "https://encrypted.google.com/search?q=#{query}&oq=#{query}"
       window.open(url, "lmgtfy", "");
