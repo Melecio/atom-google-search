@@ -1,0 +1,15 @@
+{
+  "name": "lmgtfy",
+  "main": "./lib/lmgtfy",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Shortcut for googling highlighted text",
+  "activationEvents": ["lmgtfy:google-it"],
+  "repository": "https://github.com/atom/lmgtfy",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
