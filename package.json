@@ -5,7 +5,7 @@
   "private": true,
   "description": "Shortcut for googling highlighted text",
   "activationEvents": ["lmgtfy:google-it"],
-  "repository": "https://github.com/atom/lmgtfy",
+  "repository": "https://github.com/andrewhubbs/lmgtfy",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
