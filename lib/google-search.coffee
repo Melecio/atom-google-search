@@ -7,4 +7,4 @@ module.exports =
 
     if query
       url = "https://encrypted.google.com/search?q=#{query}&oq=#{query}"
-      window.open(url, "#{query} - Google Search", "status=no, menubar=no")
+      window.open(url, "#{query} - Google Search", "status=0, toolbar=0")
