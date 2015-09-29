@@ -1,11 +1,13 @@
 {
   "name": "google-search",
   "main": "./lib/google-search",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "description": "Shortcut for googling highlighted text",
   "activationCommands": {
-    "atom-workspace": [ "google:search"]
+    "atom-workspace": [
+      "google:search"
+    ]
   },
   "repository": "https://github.com/chamini2/google-search",
   "license": "MIT",
