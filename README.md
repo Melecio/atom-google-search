@@ -1,4 +1,4 @@
-# lmgtfy package
+# google-search package
 
 Use this package to google highlighted text. Select text you want to Google. Then
-press `ctrl+options+g`.
+press `ctrl-alt-g`.
