@@ -2,9 +2,8 @@
   "name": "google",
   "main": "./lib/google-search",
   "version": "0.3.0",
-  "private": true,
   "description": "Shortcut for googling highlighted text",
-  "activationCommands": {
+  "activationEvents": {
     "atom-workspace": [
       "google:search"
     ]
