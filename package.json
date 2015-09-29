@@ -1,7 +1,7 @@
 {
   "name": "google",
   "main": "./lib/google-search",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Shortcut for googling highlighted text",
   "repository": "https://github.com/chamini2/atom-google-search",
   "license": "MIT",
