@@ -3,11 +3,6 @@
   "main": "./lib/google-search",
   "version": "0.3.1",
   "description": "Shortcut for googling highlighted text",
-  "activationEvents": {
-    "atom-workspace": [
-      "google:search"
-    ]
-  },
   "repository": "https://github.com/chamini2/atom-google-search",
   "license": "MIT",
   "engines": {
