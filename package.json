@@ -4,9 +4,9 @@
   "version": "0.2.0",
   "private": true,
   "description": "Shortcut for googling highlighted text",
-  "activationEvents": [
-    "lmgtfy:google-it"
-  ],
+  "activationCommands": {
+    "atom-workspace": [ "lmgtfy:google-it"]
+  },
   "repository": "https://github.com/andrewhubbs/lmgtfy",
   "license": "MIT",
   "engines": {

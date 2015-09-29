@@ -1,11 +1,10 @@
-module.exports =
-  activate: ->
-    atom.workspaceView.command "lmgtfy:google-it", => @googleIt()
+module.exports = LMGTFY =
+  activate: (state) ->
+    atom.commands.add 'atom-workspace', 'lmgtfy:google-it', => @search()
 
-  googleIt : ->
-    editor = atom.workspace.activePaneItem
-    selection = editor.getSelection()
-    query = selection.getText().split(" ").map(encodeURIComponent).join("+")
+  search: ->
+    query  = atom.workspace.getActivePaneItem().getLastSelection().getText()
+
     if query
       url = "https://encrypted.google.com/search?q=#{query}&oq=#{query}"
-      window.open(url, "lmgtfy", "");
+      window.open(url, "lmgtfy", "")
