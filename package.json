@@ -1,5 +1,5 @@
 {
-  "name": "google-search",
+  "name": "google",
   "main": "./lib/google-search",
   "version": "0.3.0",
   "private": true,
@@ -9,10 +9,10 @@
       "google:search"
     ]
   },
-  "repository": "https://github.com/chamini2/google-search",
+  "repository": "https://github.com/chamini2/atom-google-search",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">=1.0.0"
   },
   "dependencies": {}
 }

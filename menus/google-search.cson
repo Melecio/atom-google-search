@@ -3,7 +3,7 @@
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'google-search'
+      'label': 'google'
       'submenu': [
         {
           'label': 'Google Search'
